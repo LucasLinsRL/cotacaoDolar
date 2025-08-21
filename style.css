@@ -1,0 +1,21 @@
+/*Imagem como banner cobrindo toda a tela na horizontal*/
+header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+#valorDolar {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
